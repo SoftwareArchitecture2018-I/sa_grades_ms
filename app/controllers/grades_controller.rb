@@ -1,7 +1,6 @@
 class GradesController < ApplicationController
   before_action :set_grade, only: [:show, :update, :destroy]
 
-  
   # GET /grades
   def index
     @grades = Grade.all
